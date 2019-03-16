@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/email2"
+        android:layout_marginTop="20sp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="5sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        android:layout_below="@+id/email2"
+        android:id="@+id/password2"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter Device_type"
+        android:id="@+id/device_type2"
+        android:layout_below="@+id/password2"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Enter reg_id"
+        android:id="@+id/reg_id2"
+        android:layout_below="@+id/device_type2"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_id2"
+        android:text="Login"
+        android:onClick="login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"/>
+
+
+</RelativeLayout>
